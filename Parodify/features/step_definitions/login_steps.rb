@@ -1,5 +1,5 @@
 Dado("que acesso a página de Login") do
-  visit "http://parodify.qaninja.com.br/"
+  visit "http://parodify.qaninja.com.br"
   click_on "Login"
 end
 
