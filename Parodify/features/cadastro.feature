@@ -27,3 +27,8 @@ Funcionalidade: cadastro de usuários
       | dudamelo199882@gmail.com |         |                | Oops! Informe sua senha.             |
       | dudamelo199882@gmail.com | pwd123- | pwd1234-       | Oops! Senhas não são iguais.         |
       |                          |         |                | Oops! Informe seu email e sua senha. |
+
+  @temp
+  Cenario: Validação do campo email
+    Quando acesso a página de cadastro
+    Então deve exibir o seguinte css: "input[type=email]"
