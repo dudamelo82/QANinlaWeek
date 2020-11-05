@@ -6,6 +6,7 @@ Funcionalidade: Login
   Quero acessar o sistema com meu email e senha
   Para que eu possa ter acesso as playlists do Parodify
 
+ @smoke
   Cenario: Login do usuário
     Dado que acesso a página de Login
     Quando submeto minhas credenciais com: "dudamelo199882@gmail.com" e "pwd123-"
@@ -15,7 +16,7 @@ Funcionalidade: Login
   Esquema do Cenário: Tentativa de login
     Dado que acesso a página de Login
     Quando submeto minhas credenciais com: "<email>" e "<senha>"
-    Então devo ver a mensagem de erro : " Oops! Dados de acesso incorretos"
+    Então devo ver a mensagem de erro : "Opps! Dados de acesso incorretos!"
 
     Exemplos:
       | email                    | senha   | 

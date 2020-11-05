@@ -1,3 +1,4 @@
+
 #language: pt
 
 Funcionalidade: Reproduzir paródia
@@ -14,4 +15,5 @@ Funcionalidade: Reproduzir paródia
     Quando toco a seguinte canção:
       | parodia | Sprints de Luta Sprints de Gloria |
       | banda   | Charlie Brown Bug                 |
+
     Então essa paródia deve ficar em modo de reprodução
