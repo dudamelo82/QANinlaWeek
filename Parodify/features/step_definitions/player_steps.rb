@@ -1,10 +1,6 @@
 Dado("Login com {string} e {string}") do |email, password|
-  visit "http://parodify.qaninja.com.br"
-  click_on "Login"
-
-  find("#user_email").set email
-  find("#user_password").set password
-  click_on "Log in"
+  goto_login
+  login_with(email, password)
 end
 Dado("que eu gosto muito de ouvir {string}") do |cat|
   find("a[href='/search/new']").click
